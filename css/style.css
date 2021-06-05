@@ -5,3 +5,12 @@ header{
   background-size: cover;
   }
 
+#about{
+  background-color:aliceblue
+}
+
+#aboutContent{
+  padding-top:3vw;
+  padding-bottom:3vw;
+}
+
