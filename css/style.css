@@ -14,18 +14,18 @@ header{
   padding-bottom:3vw;
 }
 
-#education {
+.section {
   padding: 50px 15px 20px 15px;
   border-bottom: 1px solid #dcd9d9;
   text-align: center
 }
 
-#education h2 {
+.sectionHeader {
   color: #374054;
   margin-bottom: 1vh;
 }
 
-.education-block {
+.item-block {
   max-width: 700px;
   margin: 0 auto 30px auto;
   padding: 15px;
@@ -33,38 +33,38 @@ header{
   text-align: left
 }
 
-.education-block h4 {
+.item-block h4 {
   font-weight: 500;
   float: left;
   margin: 0;
   color: #374054
 }
 
-.education-block span {
+.item-block span {
   color: #74808a;
   float: right
 }
 
-.education-block h5 {
+.item-block h5 {
   color: #74808a;
   clear: both;
   font-weight: 500;
   margin: 0 0 2px 0
 }
 
-.education-block h6 {
+.item-block h6 {
   font-size: 1.0em;
   font-weight: 300;
   color: #7e8890;
   margin: 0 0 15px 0
 }
 
-.education-block p, .education-block ul {
+.item-block p, .item-block ul {
   margin: 0;
   color: #74808a;
   font-size: 0.9em
 }
 
-.education-block ul {
+.item-block ul {
   padding: 0 0 0 15px
 }
