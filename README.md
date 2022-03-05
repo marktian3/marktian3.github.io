@@ -2,6 +2,8 @@
 https://marks-munchies.com/ 
 
 To do: 
-- [ ] Flesh out experience, project, and misc section 
-- [ ] Add link to blog
+- [x] Flesh out experience, project, and misc section 
+- [x] Add link to blog
+- [ ] Create blog section within site 
 - [ ] Javascript based pomodoro timer
+
