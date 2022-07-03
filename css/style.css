@@ -1,4 +1,4 @@
-header{
+header.main-header{
   background-image: url(/img/background.jpg);
   height:100vh;
   width:100vw;
@@ -68,3 +68,31 @@ header{
 .item-block ul {
   padding: 0 0 0 15px
 }
+
+/* Begin logo color animation */ 
+@keyframes logoTextColorPalette {
+  0% {
+    color: #fe938c; 
+  }
+  25% {
+    color: #e6b89c;
+  }
+  50% {
+    color: #ead2ac; 
+  }
+  75% {
+    color: #9cafb7; 
+  }
+  100% {
+    color: #4281a4; 
+  }
+}
+
+.logoEasterEgg {
+  animation-name: logoTextColorPalette; 
+  animation-duration: 5s; 
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+/*End Logo Animation*/ 
